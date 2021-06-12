@@ -1,0 +1,5 @@
+#!/usr/local/env fish
+
+set_color $argv
+fortune
+set_color normal
