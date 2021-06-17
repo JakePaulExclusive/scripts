@@ -1,4 +1,5 @@
 #!/usr/local/env fish
+# example: fortunecolor [color in hex or rgb]
 
 set_color $argv
 fortune
