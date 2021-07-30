@@ -1,2 +1,2 @@
-#!/usr/bin/env bash
-echo "Hello $BASH_ARGV"
+#!/bin/sh
+echo "Hello $1"
