@@ -1,3 +1,3 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
-/Applications/Firefox.app/Contents/MacOS/firefox https://sv.wikipedia.org/wiki/$BASH_ARGV
+/Applications/Firefox.app/Contents/MacOS/firefox https://sv.wikipedia.org/wiki/$1
