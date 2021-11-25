@@ -1,5 +1,4 @@
 #!/bin/sh
-# "echo" in posix sh doesnt have the -n option (and i dont wanna use bash)
-/bin/echo -n "write something: "
+printf "%s" "write something: "
 read 
 cowsay ${REPLY}
